@@ -1,0 +1,3 @@
+dataset_name,file_path,vector_count,source_type,authority_level,verification_status,description
+GPower Reference Dataset,oracle/gpower_reference.csv,32,G*Power 3.1 Literature / Manual / Execution,Primary (Ground Truth),VERIFIED,G*Power 3.1.9.7 resmi kılavuzu ve yayınlanmış hakemli makale örnekleri (Faul et al. 2007)
+Library Reference Dataset,oracle/library_reference.csv,1536,Statsmodels / SciPy Algorithmic Grid,Secondary (Independent Library),VERIFIED,Büyük ölçekli parametre uzayı taraması (1536 vektör: tails x d x alpha x power x ratio)

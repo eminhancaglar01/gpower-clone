@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gpower-clone"
+version = "1.0.0"
+description = "G*Power 3.1.9.7 t2-indep Test Ailesi Yeniden Gerçekleştirimi (YZM301)"
+authors = [
+    { name = "YZM301 Araştırmacısı" }
+]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "scipy>=1.8.0",
+    "numpy>=1.20.0"
+]
+
+[project.scripts]
+gpower-clone = "src.cli:main"
+
+[tool.setuptools]
+packages = ["src"]

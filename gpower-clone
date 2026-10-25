@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+DIR="$(cd "$(dirname "$0")" && pwd)"
+if [ -f "$DIR/.venv/Scripts/python" ]; then
+    "$DIR/.venv/Scripts/python" -m src.cli "$@"
+elif [ -f "$DIR/.venv/bin/python" ]; then
+    "$DIR/.venv/bin/python" -m src.cli "$@"
+else
+    python3 -m src.cli "$@"
+fi

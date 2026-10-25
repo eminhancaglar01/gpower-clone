@@ -1,0 +1,2 @@
+[console_scripts]
+gpower-clone = src.cli:main

@@ -1,0 +1,32 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Binaries and archives
+*.exe
+*.dll
+*.zip
+*.tar.gz
+*.msi
+GPower/
+gpower_download/
+
+# System and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Scratch & temp
+scratch/
+tmp/
+*.log

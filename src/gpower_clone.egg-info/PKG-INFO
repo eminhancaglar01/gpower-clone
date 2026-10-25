@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: gpower-clone
+Version: 1.0.0
+Summary: G*Power 3.1.9.7 t2-indep Test Ailesi Yeniden Gerçekleştirimi (YZM301)
+Author: YZM301 Araştırmacısı
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: scipy>=1.8.0
+Requires-Dist: numpy>=1.20.0

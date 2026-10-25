@@ -1,0 +1,33 @@
+vector_id,test,mode,tails,d,alpha,power,ratio,n1,n2,n_total,actual_power,critical,df,ncp,source,verification_status
+GP-01,t2-indep,a-priori,2,0.5,0.05,0.95,1.0,105,105,210,0.9501,1.9714,208,3.6228,Ödev Belgesi Bölüm 4 & G*Power Resmi Örneği,VERIFIED
+GP-02,t2-indep,a-priori,1,0.5,0.05,0.95,1.0,88,88,176,0.9514,1.6537,174,3.3166,G*Power Kılavuzu s.4 Örneği,VERIFIED
+GP-03,t2-indep,a-priori,2,0.2,0.05,0.8,1.0,394,394,788,0.8006,1.963,786,2.8071,"Cohen Küçük Etki (d=0.2, power=0.80)",VERIFIED
+GP-04,t2-indep,a-priori,2,0.5,0.05,0.8,1.0,64,64,128,0.8015,1.979,126,2.8284,"Cohen Orta Etki (d=0.5, power=0.80)",VERIFIED
+GP-05,t2-indep,a-priori,2,0.8,0.05,0.8,1.0,26,26,52,0.8075,2.0086,50,2.8844,"Cohen Büyük Etki (d=0.8, power=0.80)",VERIFIED
+GP-06,t2-indep,a-priori,2,0.5,0.01,0.95,1.0,145,145,290,0.9512,2.593,288,4.2573,"Katı Alfa (alpha=0.01, power=0.95)",VERIFIED
+GP-07,t2-indep,a-priori,2,0.8,0.01,0.95,1.0,58,58,116,0.9525,2.6196,114,4.3081,Büyük Etki Katı Alfa (alpha=0.01),VERIFIED
+GP-08,t2-indep,a-priori,1,0.2,0.05,0.8,1.0,310,310,620,0.8002,1.6473,618,2.49,Tek Taraflı Küçük Etki (d=0.2),VERIFIED
+GP-09,t2-indep,a-priori,1,0.8,0.05,0.8,1.0,21,21,42,0.8168,1.6839,40,2.5923,Tek Taraflı Büyük Etki (d=0.8),VERIFIED
+GP-10,t2-indep,a-priori,2,0.5,0.05,0.9,1.0,86,86,172,0.9032,1.974,170,3.2787,"Orta Güç (d=0.5, power=0.90)",VERIFIED
+GP-11,t2-indep,a-priori,2,0.3,0.05,0.8,1.0,176,176,352,0.8014,1.9668,350,2.8142,Hafif-Orta Etki (d=0.3),VERIFIED
+GP-12,t2-indep,a-priori,2,0.4,0.05,0.8,1.0,100,100,200,0.8036,1.972,198,2.8284,Orta-Alt Etki (d=0.4),VERIFIED
+GP-13,t2-indep,a-priori,2,0.6,0.05,0.8,1.0,45,45,90,0.8037,1.9873,88,2.846,Orta-Üst Etki (d=0.6),VERIFIED
+GP-14,t2-indep,a-priori,2,0.7,0.05,0.8,1.0,34,34,68,0.8116,1.9966,66,2.8862,Büyük-Alt Etki (d=0.7),VERIFIED
+GP-15,t2-indep,a-priori,2,1.0,0.05,0.8,1.0,17,17,34,0.807,2.0369,32,2.9155,Çok Büyük Etki (d=1.0),VERIFIED
+GP-16,t2-indep,a-priori,2,0.5,0.05,0.9,2.0,64,128,192,0.9014,1.9725,190,3.266,Eşit Olmayan Oran (ratio=2.0),VERIFIED
+GP-17,t2-indep,a-priori,2,0.5,0.05,0.95,2.0,79,158,237,0.9509,1.9701,235,3.6286,"Eşit Olmayan Oran (ratio=2.0, power=0.95)",VERIFIED
+GP-18,t2-indep,a-priori,2,0.5,0.05,0.8,2.0,48,96,144,0.8021,1.9768,142,2.8284,"Eşit Olmayan Oran (ratio=2.0, power=0.80)",VERIFIED
+GP-19,t2-indep,a-priori,2,0.5,0.05,0.8,0.5,95,48,143,0.8007,1.9769,141,2.8235,"Eşit Olmayan Oran (ratio=0.5, power=0.80)",VERIFIED
+GP-20,t2-indep,a-priori,1,0.5,0.05,0.9,1.0,70,70,140,0.903,1.656,138,2.958,Tek Taraflı (power=0.90),VERIFIED
+GP-21,t2-indep,a-priori,1,0.5,0.01,0.95,1.0,128,128,256,0.9508,2.3411,254,4.0,Tek Taraflı Katı Alfa (alpha=0.01),VERIFIED
+GP-22,t2-indep,a-priori,2,0.2,0.01,0.9,1.0,746,746,1492,0.9002,2.5791,1490,3.8626,"Küçük Etki Katı Alfa (d=0.2, alpha=0.01)",VERIFIED
+GP-23,t2-indep,a-priori,2,0.2,0.05,0.95,1.0,651,651,1302,0.9501,1.9618,1300,3.6083,"Küçük Etki Yüksek Güç (d=0.2, power=0.95)",VERIFIED
+GP-24,t2-indep,a-priori,2,1.2,0.05,0.95,1.0,20,20,40,0.9588,2.0244,38,3.7947,"Çok Büyük Etki (d=1.2, power=0.95)",VERIFIED
+GP-25,t2-indep,a-priori,2,1.5,0.05,0.95,1.0,13,13,26,0.9561,2.0639,24,3.8243,"Ekstrem Etki (d=1.5, power=0.95)",VERIFIED
+GP-26,t2-indep,post-hoc,2,0.5,0.05,0.95,1.0,105,105,210,0.9501,1.9714,208,3.6228,Post Hoc Referans Eşdeğeri (N=210),VERIFIED
+GP-27,t2-indep,post-hoc,1,0.5,0.05,0.95,1.0,88,88,176,0.9514,1.6537,174,3.3166,Post Hoc Kılavuz Eşdeğeri (N=176),VERIFIED
+GP-28,t2-indep,post-hoc,2,0.2,0.05,0.8,1.0,394,394,788,0.8006,1.963,786,2.8071,Post Hoc Küçük Etki (N=788),VERIFIED
+GP-29,t2-indep,post-hoc,2,0.8,0.05,0.8,1.0,26,26,52,0.8075,2.0086,50,2.8844,Post Hoc Büyük Etki (N=52),VERIFIED
+GP-30,t2-indep,post-hoc,2,0.5,0.05,0.9,2.0,64,128,192,0.9014,1.9725,190,3.266,Post Hoc Eşit Olmayan Oran (N=192),VERIFIED
+GP-31,t2-indep,a-priori,2,0.5,0.05,0.8,1.5,53,80,133,0.8002,1.9782,131,2.8231,"Eşit Olmayan Oran (ratio=1.5, power=0.80)",VERIFIED
+GP-32,t2-indep,a-priori,1,0.5,0.05,0.8,1.5,42,63,105,0.8019,1.6598,103,2.51,Tek Taraflı Eşit Olmayan Oran (ratio=1.5),VERIFIED
